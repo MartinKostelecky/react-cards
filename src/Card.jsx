@@ -1,7 +1,7 @@
 import PropTypes, { number } from 'prop-types'
 
 function Card(props) {
-    const statusStyle = { color: props.isOnline ? 'green' : 'red', };
+    const statusStyle = { color: props.isOnline ? 'green' : 'red'};
 
     return(
         <div className="card">
